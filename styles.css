@@ -1,0 +1,119 @@
+body {
+    font-family: Arial;
+    background-color: #25114499; 
+}
+
+.login-box {
+    width: 300px;
+    margin: 103px auto;
+    padding: 56px;
+    background: white;
+    text-align: center;
+    border: solid #fcb622;
+    border-radius: 42px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px;
+    width: 100%;
+    border-radius: 42px;
+    background: #25114499;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a0c33;
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.pie-pagina {
+    margin-top: 10px;
+}
+
+.pie-pagina a {
+    text-decoration: none;
+    color: #251144;
+    font-size: 14px;
+}
+
+.pie-pagina2 a {
+    display: block;
+    margin-top: 10px;
+    color: #fcb622;
+    font-weight: bold;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.card {
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.usuario header,
+.usuario nav {
+    background-color: #007BFF;
+}
+
+.coach header,
+.coach nav {
+    background-color: #28a745;
+}
+
+.admin header,
+.admin nav {
+    background-color: #6f42c1;
+}
+
+header button {
+    margin-left: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

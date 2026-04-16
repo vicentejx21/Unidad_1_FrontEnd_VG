@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="login-box">
+
+    <img src="img/logo.png" alt="Logo" width="300">
+
+    <h2>Inicio de sesión</h2>
+
+<form action="usuario.html">
+
+    <label>Correo:</label>
+    <input type="email" placeholder="Correo" required>
+
+    <label>Contraseña:</label>
+    <input type="password" placeholder="Contraseña" required>
+
+    <label>Tipo de usuario:</label>
+    <select onchange="this.form.action=this.value">
+        <option value="usuario.html">Usuario</option>
+        <option value="coach.html">Coach</option>
+        <option value="admin.html">Admin</option>
+    </select>
+
+    <button type="submit">Ingresar</button>
+</form>
+
+    <div class="pie-pagina"> 
+        <a href="recover.html">¿Olvidaste la contraseña?</a> 
+        
+        <div class="pie-pagina2"> 
+            <a href="register.html">Registrarse</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
